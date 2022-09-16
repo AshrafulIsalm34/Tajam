@@ -1,0 +1,341 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 12%;
+    }
+    .navbar-light .navbar-toggler {
+        background: white;
+    }
+    .slick-dots {
+        bottom: 12px;
+    }
+    .banner_text {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    #about_part {
+        padding: 50px 0px;
+    }
+    .banner_text h2{
+        font-size: 25px;
+    }
+    .banner_text p {
+        padding: 30px 10px;
+        font-size: 18px;
+    }
+    
+    .about_text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about_text a {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    #video_part {
+        padding: 70px 0px;
+    }
+    #service_part {
+        padding: 30px 0px;
+    }
+    .service_body {
+        padding-top: 30px;
+    }
+    #team_part {
+        padding: 30px 0px;
+    }
+    .team_slider {
+        padding-bottom: 40px;
+    }
+    .team_slider_text p {
+        padding: 0px 50px;
+    }
+    #team-arrow-left {
+        left: 12%;
+    }
+    #team-arrow-right {
+        right: 15%;
+    }
+    #project {
+        padding: 40px 0px;
+    }
+    .project_center {
+        padding-top: 30px;
+    }
+    .project_bottom {
+        margin-top: 40px;
+    }
+    .project_top_left {
+        text-align: center;
+    }
+    .project_top_right {
+        text-align: center;
+    }
+    .project_center {
+        text-align: center;
+    }
+    .img-fluid {
+        margin-bottom: 20px;
+    }
+    #team_slider_two {
+        padding: 40px 0px;
+    }
+     .team_slider_text p {
+        padding: 0px 10px;
+     }
+    #team-arrow-left {
+        display: none;
+    }
+    #team-arrow-right {
+        display: none;
+    }
+   
+    .colops_text_center{
+        text-align: center;
+    }
+    .contact_btn {
+        margin-bottom: 30px;
+    }
+    .contact_left h3,
+    .contact_right h3 {
+        text-align: center;
+    }
+    #footer_section {
+        padding: 40px 0px;
+    }
+
+    .footer_top_left p {
+        padding-right: 0px;
+    }
+    
+    .footer_bottom_left ul {
+        text-align: center;
+    }
+    .footer_bottom_left ul li {
+        float: none;
+        margin-right: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+    .footer_bottom_right p {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 12%;
+    }
+    .navbar-light .navbar-toggler {
+        background: white;
+    }
+    .slick-dots {
+        bottom: 12px;
+    }
+    .banner_text {
+        padding-top: 100px;
+        padding-bottom: 40px;
+    }
+    #about_part {
+        padding: 50px 0px;
+    }
+    .banner_text h2{
+        font-size: 25px;
+    }
+    .banner_text p {
+        padding: 30px 10px;
+        font-size: 18px;
+    }
+    
+    .about_text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about_text a {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    #video_part {
+        padding: 70px 0px;
+    }
+    #service_part {
+        padding: 30px 0px;
+    }
+    .service_body {
+        padding-top: 30px;
+    }
+    #team_part {
+        padding: 30px 0px;
+    }
+    .team_slider {
+        padding-bottom: 40px;
+    }
+    .team_slider_text p {
+        padding: 0px 50px;
+    }
+    #team-arrow-left {
+        left: 12%;
+    }
+    #team-arrow-right {
+        right: 15%;
+    }
+    #project {
+        padding: 40px 0px;
+    }
+    .project_center {
+        padding-top: 30px;
+    }
+    .project_bottom {
+        margin-top: 40px;
+    }
+    #team_slider_two {
+        padding: 40px 0px;
+    }
+     .team_slider_text p {
+        padding: 0px 10px;
+     }
+    #team-arrow-left {
+        left: 2%;
+        top: 82%;
+    }
+    #team-arrow-right {
+        right: 10%;
+        top: 82%;
+    }
+    .colops_text_center{
+        text-align: center;
+    }
+    .contact_btn {
+        margin-bottom: 30px;
+    }
+    .contact_left h3,
+    .contact_right h3 {
+        text-align: center;
+    }
+    #footer_section {
+        padding: 40px 0px;
+    }
+    .footer_top_wrap {
+        text-align: center;
+    }
+    .footer_top_left p {
+        padding-right: 0px;
+    }
+    .footer_top_icon ul {
+        padding-left: 30%;
+    }
+    
+    .footer_bottom_left ul {
+        text-align: center;
+    }
+    .footer_bottom_left ul li {
+        float: none;
+        margin-right: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+    .footer_bottom_right p {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer_btn {
+        margin-left: 20%;
+    }
+
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        text-align: center;
+    }
+    .navbar-light .navbar-nav .nav-link::after {
+        width: 12%;
+    }
+    .navbar-light .navbar-toggler {
+        background: white;
+    }
+    .banner_text {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .banner_text p {
+        padding: 50px 15px;
+    }
+    .about_text h2 {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .about_text a {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+    #video_part {
+        padding: 150px 0px;
+    }
+    .service_body {
+        padding-top: 50px;
+    }
+    .team_slider_text p {
+        padding: 0px 50px;
+    }
+    #team-arrow-left {
+        left: 12%;
+    }
+    #team-arrow-right {
+        right: 15%;
+    }
+    .contact_btn {
+        margin-bottom: 30px;
+    }
+    .contact_left h3,
+    .contact_right h3 {
+        text-align: center;
+    }
+    .footer_top_wrap {
+        text-align: center;
+    }
+    .footer_top_left p {
+        padding-right: 0px;
+    }
+    .footer_top_icon ul {
+        padding-left: 30%;
+    }
+    .footer_btn {
+        margin-left: 25%;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #team-arrow-left {
+        left: 22%;
+    }
+    #team-arrow-right {
+        right: 24%;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #team-arrow-left {
+        left: 26%;
+    }
+    #team-arrow-right {
+        right: 28%;
+    }
+    
+}

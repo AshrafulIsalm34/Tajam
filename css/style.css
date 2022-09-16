@@ -1,0 +1,883 @@
+/*===============================
+
+    Template Name: Tajam HTML Template.
+    Author: Ashraful Islam
+    Version: 1.0.0
+
+
+    Table of Contents:
+    1.menu section
+    2.banner section
+    3.About section
+    4.video section
+    5.service section
+    6.Team part
+    7.project part
+    8.Team  sesction two
+    9.Contact section
+    10.footer section
+
+=================================*/
+
+
+
+
+
+/*typography start*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;     
+}
+a{
+    text-decoration: none;
+    
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    border: none;
+}
+/*typography finish*/
+
+/*menu section start*/
+.me-auto {
+    margin-left: auto!important;
+    margin-right: 0!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    position: relative;
+}
+.navbar-light .navbar-nav .nav-link:after{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 2px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #00e0d0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #00e0d0;
+}
+.navbar-light .navbar-nav .nav-link:hover:after{
+    opacity: 1;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #00e0d0;
+}
+.navbar-light .navbar-nav .nav-link.active:after{
+    opacity: 1;
+}
+
+
+.nav-bg{
+    background: #444;
+}
+.navbar{
+    transition: all 0.5s ease;
+    position: fixed; 
+    width: 100%;
+    z-index: 500;
+}
+/*menu section finish*/
+
+/*banner section start*/
+#banner_part{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#banner_part:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 41, 87,0.8);
+}
+banner_slider{
+    position: relative;
+    z-index: 99;
+}
+.banner_text{
+    padding-top: 228px;
+    padding-bottom: 205px;
+}
+.banner_text h2{
+    font-size: 32px;
+    font-family: 'Playfair Display', Black; 
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+}
+.banner_text h2:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #00E0D0;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -30px;
+}
+.banner_text p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    color: #fff;
+    padding: 50px 120px;
+    line-height: 25px;
+}
+.banner_text a{
+    padding: 15px 30px;
+    border: 1px solid #00E0D0;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    color: #00e0d0;
+    text-transform: uppercase;
+}
+
+.slick-dots{
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    z-index: 120;
+}
+.slick-dots li{
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+.slick-dots li button{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+    border-radius: 50%;
+    background: #00E0D0;
+    color: transparent;
+    opacity: 0;
+	outline:0;
+}
+.slick-dots li.slick-active button{
+    opacity: 1;
+}
+
+
+/*banner section finish*/
+
+/*about section start*/
+#about_part{
+    padding: 70px 0px;
+}
+.about_text{
+    
+}
+.about_text h2{
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+    margin-bottom: 0rem;
+}
+.about_text p{
+    color: #413d4b;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-bottom: 35px;
+    margin-bottom: 0rem;
+}
+.about_text a{
+    padding: 15px 30px;
+    border: 1px solid #00E0D0;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    color: #00e0d0;
+    text-transform: uppercase;
+    
+}
+/*about section finish*/
+
+/*video section start*/
+#video_part{
+    background: url(../img/video_bg.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 200px 0px;
+}
+#video_part:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51, 41, 87,0.8);
+}
+.video_text{
+    position: relative;
+    z-index: 100;
+}
+.video_icon{
+    color: white;
+    font-size: 44px;
+    width: 90px;
+    height: 90px;
+    border: 3px solid white;
+    border-radius: 50%;
+    line-height: 90px;
+    text-align: center;
+    
+}
+.video_text h3{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif black;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 33px;
+    text-transform: uppercase;
+}
+/*video section finish*/
+
+/*Service section start*/
+
+#service_part{
+    padding: 70px 0px;
+}
+
+.service_content_head h2{
+    font-size: 22px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    color: #413d4b;
+}
+.service_content_head p{
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    color: #2f2d35;
+    font-weight: 400;
+    position: relative;
+}
+.service_content_head p:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #C6C4C9;
+    left: 50%;
+    transform: translate(-50%);
+    top: 50px;
+}
+.service_body{
+    padding-top: 100px;
+}
+.service_body h3{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif black;
+    color: #413d4b;
+    padding: 25px 0px;
+    margin-bottom:0px;
+}
+.service_body p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif light;
+    color: #333333;
+    line-height: 25px;
+    padding: 0px 55px;
+}
+/*Service section finish*/
+
+
+/* Team part css start */
+#team_part{
+    background: url(../img/team_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 70px 0px;
+}
+#team_part:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(36, 25, 76,0.8);
+}
+.team_top{
+    text-align: center;
+    position: relative;
+    z-index: 99;
+}
+.team_top h2{
+    font-size: 22px;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.team_top p{
+    font-size: 14px;
+    font-family: 'Playfair Display';
+    color: #f9f9f9;
+    position: relative;
+    padding-bottom: 70px;
+    margin-bottom:0px;
+}
+.team_top p:after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #655C80;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.team_slider{
+    position: relative;
+    z-index: 100;
+    padding-bottom: 70px;
+    --bs-gutter-x: -2px;
+}
+.meamber_team{
+    margin-right: 20px;
+}
+
+.team_card{
+    background:none;
+    border:1px solid white;
+    color: white;
+    text-align: center;
+    
+}
+.team_bottom{
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 99;
+    
+}
+.team_bottom h5{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif light;
+    color: #f3f3f3;
+    padding-bottom: 30px;
+}
+.team_bottom a{
+    padding: 15px 30px;
+    border: 1px solid #00E0D0;
+    font-size: 16px;
+    font-family: 'Hammersmith One',
+    sans-serif;
+    font-weight: 400;
+    color: #00e0d0;
+    text-transform: uppercase;
+}
+
+/* Team part css finish   */
+
+/*project part start*/
+#project{
+    padding: 70px 0px;
+}
+.project_top_left{
+    text-align: left;
+}
+.project_top_left h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display';
+    font-weight: 700; 
+}
+.project_top_right{
+    text-align: right;
+}
+project_top_right p{
+    color: #413d4b;
+    font-size: 14px;
+    
+}
+.project_center{
+    padding-top: 70px;
+}
+.project_bottom{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.project_bottom a{
+    padding: 15px 30px;
+    border: 1px solid #00E0D0;
+    font-size: 16px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    color: #00e0d0;
+    text-transform: uppercase;
+    
+}
+/*project part finish*/
+
+/*Team  sesction two css start*/
+#team_slider_two{
+    background: url(../img/team-_slider_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px;
+    position: relative;
+}
+#team_slider_two:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(38, 25, 75,0.8);
+}
+.team_slider_text{
+    position: relative;
+    z-index: 99;
+  
+}
+.team_slider_text i{
+    font-size: 50px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.team_slider_text p{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    padding: 0px 172px;
+    padding-bottom: 50px;
+}
+.team_slider_text h4{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif black;
+    color: #fff;
+}
+.team_slider_text h5{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif light;
+    color: #fff;
+    padding-bottom: 55px;
+}
+.team_slider_img{
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+}
+.team_img{
+    position: relative;
+    z-index: 99;
+   
+}
+.team_img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.slider_text{
+    position: relative;
+    z-index: 99;
+}
+#team-arrow-left{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    top: 78%;
+    left: 28%;
+    font-size: 30px;
+    cursor: pointer;
+}
+#team-arrow-right{
+    position: absolute;
+    z-index: 99;
+    color: #fff;
+    top: 78%;
+    right: 29%;
+    font-size: 30px;
+    cursor: pointer;
+}
+.slick-center>.team_img img{
+    transform: rotate(360deg);
+    border: 3px solid green;
+    transition: all 1s ease;
+    font-size: 100px;
+}
+/*Team  sesction two css finish*/
+
+/*Contact section start*/
+
+#contact{
+    padding: 70px 0px;
+}
+.contact_left h3,.contact_right h3{
+    color: #413d4b;
+    font-size: 22px;
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+.contact_btn{
+    background-color: transparent;
+    border-color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #00e0d0;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.colops_space{
+    padding-bottom: 2rem;
+}
+
+/*contact section finish*/
+
+/*footer section start*/
+#footer_section{
+    background: url(../img/footer_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0px;
+    position: relative;
+    display: flex;
+}
+#footer_section:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(57, 46, 93,0.9);
+}
+.footer_top_wrap{
+    position: relative;
+    z-index: 99;
+    color: #fff;
+}
+.footer_top_left img{
+    padding-bottom: 25px;
+}
+.footer_top_left p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif light;
+    color: #fff;
+    padding-right: 140px;
+    line-height: 26px;
+}
+.footer_top_middle h3,.footer_top_right h3{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif black;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+.footer_top_middle p{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif light;
+    color: #fff;
+    line-height: 26px;
+}
+.footer_input_fild{
+    background: transparent;
+    border: 1px solid white;
+    padding: 11px 34px;
+    font-size: 15px;
+    color:black;
+}
+.btn_send{
+    border: 1px solid white;
+    padding: 2px 35px;
+    font-size: 26px;
+    border-radius: 0;
+    background: rgba(161, 154, 179,0.5);
+}
+.footer_top_icon{
+    
+}
+.footer_top_icon ul{
+    padding-left: 0px;
+}
+
+.footer_top_icon ul li {
+    float: left;
+    margin-right: 20px;
+    width: 35px;
+    height: 35px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid white;
+    
+}
+.footer_top_icon ul li a{
+    color: #fff;
+    font-size: 18px;
+    
+}
+.footer_bottom_wrap{
+    position: relative;
+    z-index: 99;
+    color: white;
+    padding-top: 25px;
+}
+.footer_bottom_left ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.footer_bottom_left ul li{
+    float: left;
+    margin-right: 30px;
+}
+.footer_bottom_left ul li a {
+    color: white;
+    text-transform: uppercase;
+}
+.footer_bottom_right p{
+    text-align: right;
+    font-size: 14px;
+    color: white;
+    font-family: 'Roboto', sans-serif black;
+}
+
+/*footer section finish*/
+
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*typed css start*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/*typed css finish*/
+
+/*partical css start*/
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  z-index: 99;
+}
+/*partical css finished*/
+
+/*preloder css start*/
+/*
+.preloder{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 999;
+}
+.preloder img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+*/
+
+
+/*or*/
+
+/*
+#preloder {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background: #000;
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 60px;
+  animation: loader 0.8s linear infinite;
+  -webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border: 4px solid #673ab7;
+    border-left-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    border: 4px solid #673ab7;
+    border-left-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+}
+*/
+
+/*or*/
+
+.preloder{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: black;
+  height: 100%;
+  width: 100%;
+  z-index: 999;
+}
+
+.done{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.circle, .circle:before, .circle:after{
+  border: 3px solid transparent;
+/*   border: 3px solid greeen; */
+  border-radius: 50%;
+}
+
+.circle{
+  height: 110px;
+  width: 110px;
+  margin: 200px auto;
+  position: relative;
+  border-top-color: gold;
+  animation-name: spin;
+   animation-duration:1.1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+.circle:before, .circle:after{
+  content: "";
+  position: absolute;
+}
+
+.circle:before{
+  top: 10px;
+  left:10px;
+  bottom: 10px;
+  right: 10px;
+  border-top-color: red;
+  animation-name: spin;
+   animation-duration:2.1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-duration: 2.1s;
+}
+
+.circle:after{
+  top: 23px;
+  left:23px;
+  bottom: 23px;
+  right: 23px;
+  border-top-color: indigo;
+  animation-name: spin;
+  animation-delay: 1.3s;
+  animation-duration:3.1s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+/*preloder css start*/
+
